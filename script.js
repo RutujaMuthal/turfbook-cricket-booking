@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurfBook</title>
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">🏏 TurfBook</div>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#highlight">Gallery</a>
+    <a href="#turfs">Turfs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+    <div class="hero-top-box">
+        <h3>🏏 Play Like Champions</h3>
+        <p>Book premium cricket turfs instantly in Pune</p>
+      </div>
+  <div class="hero-content">
+    <h1>Book Cricket Turf Easily</h1>
+    <p>Premium cricket grounds across Pune with top facilities</p>
+    <button onclick="bookNow()">Book Now</button>
+  </div>
+</section>
+
+<section id="highlight" class="highlight">
+
+    <h2>🏏 Experience Premium Cricket Grounds</h2>
+<p class="section-sub">High-quality turfs with lighting, safety & comfort</p>
+
+<div class="highlight-container">
+
+  <!-- 1 -->
+  <div class="img-box big">
+    <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80">
+    <div class="overlay">Professional Stadium Matches</div>
+  </div>
+
+  <!-- 2 -->
+  <div class="img-box big">
+    <img src="https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&w=1200&q=80">
+    <div class="overlay">Night Floodlight Cricket</div>
+  </div>
+
+  <!-- 3 -->
+  <div class="img-box big">
+    <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1200&q=80">
+    <div class="overlay">Premium Turf View</div>
+  </div>
+
+</div>
+<!-- TURFS -->
+<section id="turfs">
+    <h2>Available Turfs</h2>
+    <p class="section-sub">Book from top-rated locations in Pune</p>
+  
+    <div class="turf-container">
+  
+      <!-- 1 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1200&q=80">
+        <h3>Green Field Turf</h3>
+        <p>📍 Hinjewadi, Pune</p>
+        <button onclick="bookNow()">Book</button>
+      </div>
+  
+      <!-- 2 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1587385789097-0197a7fbd179?auto=format&fit=crop&w=1200&q=80">
+        <h3>Pro Arena Ground</h3>
+        <p>📍 Wakad, Pune</p>
+        <button onclick="bookNow()">Book</button>
+      </div>
+  
+      <!-- 3 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1626248801379-51a0748a5f96?auto=format&fit=crop&w=1200&q=80">
+        <h3>City Sports Turf</h3>
+        <p>📍 Baner, Pune</p>
+        <button onclick="bookNow()">Book</button>
+      </div>
+  
+    </div>
+  </section>
+
+<!-- OFFER -->
+<section class="offer">
+  <h2>🔥 Weekend Special Offer</h2>
+  <p>Get 20% OFF on all turf bookings this weekend</p>
+  <button onclick="bookNow()">Grab Offer</button>
+</section>
+
+<section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+  
+    <div class="contact-container">
+  
+      <!-- FORM -->
+      <div class="contact-form box">
+        <h3>Get in Touch</h3>
+  
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="email" id="email" placeholder="Email Address" required>
+          <input type="tel" id="phone" placeholder="Phone Number" required>
+          <textarea placeholder="Your Message"></textarea>
+  
+          <button type="submit">Send Message</button>
+  
+          <!-- Google Login -->
+          <div class="google-login" onclick="googleLogin()">
+            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png">
+            <span>Continue with Google</span>
+          </div>
+        </form>
+      </div>
+  
+      <!-- MAP -->
+      <div class="contact-map box">
+        <h3>Our Location</h3>
+        <iframe src="https://maps.google.com/maps?q=pune&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+  
+    </div>
+  </section>
+<footer class="footer">
+    <div class="footer-container">
+  
+      <div>
+        <h3>🏏 TurfBook</h3>
+        <p>Your trusted platform for booking premium cricket turfs in Pune.</p>
+      </div>
+  
+      <div>
+        <h4>Contact Info</h4>
+        <p>📍 Pune, Maharashtra</p>
+        <p>📞 +91 7218091949</p>
+        <p>✉ rurm7876@gmail.com</p>
+      </div>
+  
+    </div>
+  
+    <p class="copyright">© 2026 TurfBook | All Rights Reserved</p>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
